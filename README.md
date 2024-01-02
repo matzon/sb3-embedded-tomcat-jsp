@@ -37,7 +37,7 @@ from within the service module.
 
 When running from within your IDE, some manual configuration may be required. 
 Specifically for IntelliJ IDEA, you will need to configure the working directory and configure it to 
-> \$MODULE_WORKING_DIR\$
+> \\$MODULE_WORKING_DIR\\$
 
-as well as enable the
+as well as enable this option
 > Add dependencies with "provided" scope to classpath
