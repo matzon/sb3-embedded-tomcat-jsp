@@ -7,10 +7,6 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class ApplicationWebController {
 
-    public ApplicationWebController() {
-        System.out.println("yo");
-    }
-
     @GetMapping("/")
     public ModelAndView index() {
         ModelAndView modelAndView = new ModelAndView();
